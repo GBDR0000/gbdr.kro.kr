@@ -1,0 +1,55 @@
+/*= Main CSS =*/
+
+/*= Intro =*/
+
+.notice-content-background {
+    width: 100%;
+    height: 500px;
+    background: #000 fixed;
+}
+
+.intro-title {
+    text-align: center;
+    padding: 7%;
+}
+
+.intro-title > h1 {
+    font-weight: 900;
+    font-size: 80px;
+    color: #fff;
+}
+
+.title-underline {
+    width: 70%;
+    margin: auto;
+    border: 4px solid #a2d9ce;
+}
+
+.subtitle {
+    font-size: 50px !important;
+}
+
+.subtitle > strong {
+    font-size: 60px !important;
+    color: #66e8ff;
+}
+
+/*= Notice Contents =*/
+
+#notice-contents {
+    height: 920px;
+}
+
+.create-error-title {
+    padding-top: 18%;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+}
+
+.create-error-subtitle {
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,234 @@
+/*= Base CSS =*/
+
+* {
+    list-style: none; 
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'GmarketSansMedium';
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*= Main CSS =*/
+
+/*= Header =*/
+
+.header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 1px 10px rgb(54 54 54 / 18%);
+    z-index: 1000;
+}
+
+.header-logo {
+    margin-left: 800px;
+    width: 300px;
+    height: 80px;
+    background: url('/Assets/Img/HeaderLogo.png')
+}
+
+/*= Intro =*/
+
+#intro {
+    margin-top: 80px;
+}
+
+.intro-background {
+    width: 100%;
+    height: 920px;
+    background: url('/Assets/Img/Intro.png') fixed;
+}
+
+.intro-title {
+    text-align: center;
+    padding: 20%;
+}
+
+.intro-title > h1 {
+    font-weight: 900;
+    font-size: 80px;
+    color: #fff;
+}
+
+.title-underline {
+    width: 70%;
+    margin: auto;
+    border: 4px solid #a2d9ce;
+}
+
+.subtitle {
+    font-size: 50px !important;
+}
+
+.subtitle > strong {
+    font-size: 60px !important;
+    color: #66e8ff;
+}
+
+/*= Services =*/
+
+#services {
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    margin-top: 100px;
+}
+
+.box-large {
+    width: 900px;
+    height: 400px;
+    border-radius: 20px;
+    border: 2px solid #d8dee7;
+    background: #f9fafc;
+    box-shadow: 0 1px 10px rgb(54 54 54 / 7%);
+}
+
+.box-normal {
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    border: 2px solid #d8dee7;
+    background: #f9fafc;
+    box-shadow: 0 1px 10px rgb(54 54 54 / 20%);
+}
+
+.box-1 {
+    margin-left: 160px;
+}
+
+.box-2 {
+    margin-left: 80px;
+}
+
+.box-3 {
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+#services h1 {
+    font-weight: 900;
+    font-size: 32px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: 'NanumSquareNeo-Variable' !important;
+    background: #fff;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.notice {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.notice > li > a {
+    font-family: 'NanumSquareNeo-Variable' !important;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.notice > li > a > span {
+    color: rgb(83, 109, 255);
+    transition: 0.5s;
+}
+
+.notice > li > a:hover {
+    color: rgb(83, 109, 255);
+}
+
+.notice > li > a:hover > span {
+    color: #000;
+}
+
+.event-title {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 35px;
+    color: #ff8686;
+}
+
+.event-timer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.btn-event {
+    margin-left: 373px; 
+}
+
+/*= Footer =*/
+#footer {
+    background: transparent;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+}
+
+.footer-line {
+    margin-top: 30px;
+    border: 1.5px solid rgb(41, 41, 41);
+}
+
+#footer > span > h1,
+#footer > span > h1 > a {
+    font-family: 'NanumSquareNeo-Variable' !important;
+    font-weight: lighter;
+    display: inline-flex;
+    color: rgb(41, 41, 41);
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.footer-email > a {
+    line-height: 50px;
+    transition: 0.5s;
+}
+
+.footer-email > a:hover {
+    color: rgb(173, 173, 173) !important;
+}
+
+.footer-copyright {
+    margin-left: 30px;
+}
+
+
