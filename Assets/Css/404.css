@@ -1,0 +1,28 @@
+/*= Main CSS =*/
+
+/*= 404 =*/
+
+#error {
+    height: 920px;
+}
+
+.error-title {
+    padding-top: 20%;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+}
+
+.error-subtitle {
+    font-family: 'NanumSquareNeo-Variable';
+    font-weight: lighter;
+    text-align: center;
+    font-size: 28px;
+}
+
+.error-subtitle > span {
+    display: block;
+    font-weight: lighter;
+    margin-top: 5px;
+    font-size: 20px;
+}
